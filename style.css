@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,400,700&display=swap');
+
+body {
+    margin: 0 auto;
+    font: 300 14px/1.5 "Lato", Arial, sans-serif;
+}
+
+.main-banner {
+    background-image: url(images/main-image.jpg);
+    background-repeat: no-repeat;
+    width: 1600px;
+    /*width: 100%;*/
+    height: 880px;
+    /*height: 100vh;*/
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 1180px;
+    flex-direction: column; 
+    display: flex; 
+    height: 100%;
+}
+
+.main-banner-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-banner-menu {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.main-banner-content {
+    margin-top: 237px;
+}
+
+.recipes {
+    font-size: 100px;
+}
+
+button {
+    width: 280px;
+    height: 65px;
+    border: 3px solid #ffffff;
+    border-radius: 3px;
+    font: 700 18px/1.5 "Lato", Arial, sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: transparent;
+    margin-bottom: 35px;
+    margin-top: 10px;
+}
+
+
+
+
+
