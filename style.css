@@ -3,6 +3,7 @@
 body {
     margin: 0 auto;
     font: 300 14px/1.5 "Lato", Arial, sans-serif;
+    display: flex;
 }
 
 .main-banner {
@@ -11,8 +12,8 @@ body {
     width: 1600px;
     /*width: 100%;*/
     height: 880px;
-    /*height: 100vh;*/
-    background-size: cover;
+    /*height: 100%;*/
+    background-size: contain;
     text-align: center;
     color: #ffffff;
     display: flex;
@@ -22,10 +23,11 @@ body {
 }
 
 .container {
-    width: 1180px;
+    flex-basis: 1180px;
     flex-direction: column; 
     display: flex; 
-    height: 100%;
+    /*height: 100%;
+    justify-content: space-between;*/
 }
 
 .main-banner-top {
@@ -41,7 +43,16 @@ body {
 }
 
 .main-banner-content {
-    margin-top: 237px;
+    padding-top: 235px;
+
+}
+
+.main-banner-content>div:first-of-type{
+    font: 700 36px/1.5 "Times new roman", Times, serif;
+    font-style: italic;
+    color: #e9d9d9;
+    text-transform: none;
+    line-height: 0;
 }
 
 .recipes {
@@ -61,6 +72,9 @@ button {
     margin-top: 10px;
 }
 
+button:hover {
+    opacity: 0.8;
+}
 
 
 
